@@ -1,10 +1,10 @@
 # Report: Genes Associated with Lung Cancer
 
 ## Introduction
-This report focuses on genes associated with lung cancer and their importance in biomedical research.
+Lung cancer is one of the most important cancer types in biomedical research because genetic factors contribute to disease susceptibility and molecular classification.
 
 ## Objective
-The aim of this project is to document and organize gene-disease association data using a relational database structure.
+The aim of this project is to organize gene-disease association data in a relational database and connect this technical structure with a short academic review.
 
 ## Selected Disease
 - Lung Cancer
@@ -14,17 +14,22 @@ The aim of this project is to document and organize gene-disease association dat
 - EGFR
 - BRCA1
 
+## Scientific Background
+Published studies and large-scale genetic analyses show that lung cancer risk is influenced by multiple genetic factors.
+Research literature has reported significant associations between several genes and lung cancer susceptibility, including genes involved in DNA repair, cell-cycle regulation, and oncogenic signaling pathways.
+
 ## Method
-The project is based on a simple PostgreSQL database design with three main tables:
+This project uses a simple PostgreSQL database structure with the following entities:
 - genes
 - diseases
 - gene_disease_associations
 
-## Expected Outcome
-The database should help organize and query relationships between genes and diseases.
+Sample SQL data and queries were prepared to document how these relationships can be stored and analyzed.
 
-## Notes
-This is an initial draft of the report and will be expanded later with references and analysis.
+## Expected Outcome
+The database can help organize, store, and query gene-disease associations in a structured way for academic practice.
 
 ## References
-- References will be added later.
+1. Genetic predisposition to lung cancer: comprehensive literature integration, meta-analysis, and multiple evidence assessment of candidate-gene association studies.
+2. Association of Reported Candidate Monogenic Genes With Lung Cancer Risk.
+3. Multi-ancestry GWAS meta-analyses of lung cancer reveal susceptibility loci and elucidate smoking-independent genetic risk.
