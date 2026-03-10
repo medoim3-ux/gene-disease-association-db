@@ -1,26 +1,39 @@
-# Gene-Disease Association Database
+# Environment Setup
 
-## Project Description
-This project documents the design of a relational database for gene-disease associations.
+## Purpose
+This file documents the planned technical environment for the gene-disease association database project.
 
-## Academic Objectives
-- Learn how to document a technical project using GitHub
-- Practice database schema design in PostgreSQL
-- Organize sample gene and disease data
-- Write SQL queries for association analysis
-- Prepare a short academic report about genes associated with a disease
+## Virtual Environment
+The project environment is planned to be deployed using VirtualBox.
+A Linux virtual machine is intended to be used for practicing shell commands, database setup, and project organization.
 
-## Project Status
-Current status: documentation and initial database design completed.
+## Operating System
+Planned operating system:
+- Ubuntu Linux
 
-## Repository Structure
-- `README.md` — main project documentation
-- `schema.sql` — database schema
-- `data.sql` — sample data
-- `queries.sql` — SQL queries for analysis
-- `report.md` — initial academic report draft
+## Database System
+Planned database system:
+- PostgreSQL
 
-## Database Entities
-- Genes
-- Diseases
-- Gene-Disease Associations
+PostgreSQL is intended to be used for:
+- creating the database schema
+- inserting sample data
+- executing SQL queries
+- testing gene-disease association records
+
+## Python Integration
+Python will be used to connect to PostgreSQL and perform simple database operations.
+
+Planned Python package:
+- psycopg2 or psycopg
+
+## Shell Practice
+Linux shell commands will be used for:
+- navigation between project files
+- running PostgreSQL commands
+- editing SQL files
+- basic environment management
+
+## Documentation Note
+This repository is focused on documenting the project structure and planned implementation.
+The virtual machine itself is not included in the repository.
