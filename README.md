@@ -1,34 +1,30 @@
 # Gene-Disease Association Database
 
-## Project Overview
-This repository documents a study project about designing a database for gene-disease associations.
+## Project Description
+This project documents the design of a relational database for gene-disease associations.
 
-## Goals
-- Learn basic GitHub workflow
-- Document project progress
-- Design a relational database structure
-- Use PostgreSQL for implementation
-- Prepare a short report about genes associated with a disease
+## Academic Objectives
+- Learn how to document a technical project using GitHub
+- Practice database schema design in PostgreSQL
+- Organize sample gene and disease data
+- Write SQL queries for association analysis
+- Prepare a short academic report about genes associated with a disease
 
-## Planned Tools
-- VirtualBox
-- Linux + Shell
-- PostgreSQL
-- Python
-- GitHub
-- Liquibase (optional)
-
-## Current Status
-Project documentation started.
-Database implementation not started yet.
+## Project Status
+Current status: documentation and initial database design completed.
 
 ## Repository Structure
-Planned files:
-- README.md
-- schema.sql
-- data.sql
-- queries.sql
-- report/
+- `README.md` — main project documentation
+- `schema.sql` — database schema
+- `data.sql` — sample data
+- `queries.sql` — SQL queries for analysis
+- `report.md` — initial academic report draft
+
+## Database Entities
+- Genes
+- Diseases
+- Gene-Disease Associations
 
 ## Notes
-This repository is currently used for documentation and project planning.
+This repository is currently focused on documentation and initial SQL structure.
+Further implementation in PostgreSQL, Python, and Liquibase may be added later.
